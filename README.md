@@ -18,7 +18,12 @@
 
 **3、具体实现**
 
-借助GCC，编写makefile文件，在Ubuntu系统下实现将源文件转化为可执行文件，并运行输出相应的数据和图片结果，结果如下：
+借助GCC，编写makefile文件，在Ubuntu系统下实现将源文件转化为可执行文件，并运行输出相应的数据和图片结果，过程及结果如下：
+![image](/img/P1.png)
+
+![image](/img/P2.png)
+
+![image](/img/P3.png)
 
 
 
@@ -29,17 +34,22 @@
 **1、本地Git和远程Github版本控制的初始化**
 
 在本地安装Git、远程建立Github账户，并 配置Git本地用户名和email(和Github账户一致）。
+![image](/img/P4.png)
 
 **2、使用Git对本地项目进行版本控制**
 
 初始化本地项目的Git版本控制，并提交工作内容到Git仓库，实现在项目根目录下创建一个名为.git的隐藏子目录，其中包含所有Git相关数据。
+![image](/img/P5.png)
 
 **3、本地仓库的远程Github仓库初始化**
 
 在Github账户中建立一个和本地项目目录同名的空仓库（不能有README.md等任何内容），将远程Github仓库加为本Git项目的远程源，并首次推送本地仓库到远程Github仓库。所建立的远程Github仓库的网址为：https://github.com/RatPeter/Practice-Bonus 。
+![image](/img/P6.png)
 
 **4、本地仓库工作内容变化更新、同步到远程github**
 
 将本地工作内容变化提交到暂存区，存入暂存区内容提交至本地仓库，最终本地仓库的更新同步到远程github仓库。
+![image](/img/P7.png)
 
 最终的仓库截图如下：
+![image](/img/P8.png)

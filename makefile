@@ -1,10 +1,10 @@
 all: mainexe
 
 clean:
-	rm -f ./bin/spring_g.exe
+	rm -f ./bin/spring.exe
 
 mainexe:sprobj 
-	gcc -o ./bin/spring_g.exe ./spring_g.o -lgsl -lgslcblas -lm
+	gcc -o ./bin/spring.exe ./spring_g.o -lgsl -lgslcblas -lm
 	rm -f ./spring_g.o
 
 sprobj:
